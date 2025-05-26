@@ -32,7 +32,8 @@ block-beta
    SamplePreparation --> DataAcquisition
    DataAcquisition --> DataPreprocessing
    DataPreprocessing -->  StatisticalAnalysis
-   StatisticalAnalysis --> DataInterpretation 
+   StatisticalAnalysis --> DataInterpretation
+   DataInterpretation -->  Bioinformactics
    Bioinformactics  --> CandidateBiomarkers
    CandidateBiomarkers --> BiomakerBiologicalJustification
    BiomakerBiologicalJustification --> BiomakerValidation
