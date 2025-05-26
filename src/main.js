@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
    }, 2000);
 })
 
-title.textContent = 'I should better used Python :((((';
+title.textContent = 'I should have used Python. :((((';
 
 mermaid.initialize({ startOnLoad: true });
 
